@@ -1,0 +1,75 @@
+{"level":"info","message":"Authentication: Anthropic API key (custom endpoint https://claude.vocareum.com)","service":"code-review-system","timestamp":"2026-11-11 08:06:08"}
+{"level":"info","message":"Reviewing octocat/Hello-World#1 with claude-haiku-4-5-20251001. This usually takes a few minutes...","service":"code-review-system","timestamp":"2026-11-11 08:06:08"}
+{"level":"info","message":"Starting review of octocat/Hello-World#1 (model: claude-haiku-4-5-20251001)","service":"code-review-system","timestamp":"2026-11-11 08:06:08"}
+{"level":"info","message":"Authentication: Anthropic API key (custom endpoint https://claude.vocareum.com)","service":"code-review-system","timestamp":"2026-11-11 08:31:10"}
+{"level":"info","message":"Reviewing octocat/Hello-World#1 with claude-sonnet-4-5-20250929. This usually takes a few minutes...","service":"code-review-system","timestamp":"2026-11-11 08:31:10"}
+{"level":"info","message":"Starting review of octocat/Hello-World#1 (model: claude-sonnet-4-5-20250929)","service":"code-review-system","timestamp":"2026-11-11 08:31:10"}
+{"level":"info","message":"MCP server \"github\" connected","service":"code-review-system","timestamp":"2026-11-11 08:31:19"}
+{"level":"info","message":"MCP server \"eslint\" connected","service":"code-review-system","timestamp":"2026-11-11 08:31:19"}
+{"level":"info","message":"-> Spawning subagent: code-quality-analyzer","service":"code-review-system","timestamp":"2026-11-11 08:31:39"}
+{"level":"info","message":"-> Spawning subagent: test-coverage-analyzer","service":"code-review-system","timestamp":"2026-11-11 08:31:44"}
+{"level":"info","message":"-> Spawning subagent: refactoring-suggester","service":"code-review-system","timestamp":"2026-11-11 08:31:50"}
+{"level":"info","message":"   Skill invoked by subagent: javascript-best-practices","service":"code-review-system","timestamp":"2026-11-11 08:31:52"}
+{"level":"info","message":"   Skill invoked by subagent: javascript-best-practices","service":"code-review-system","timestamp":"2026-11-11 08:31:52"}
+{"level":"info","message":"   Skill invoked by subagent: javascript-best-practices","service":"code-review-system","timestamp":"2026-11-11 08:31:53"}
+{"level":"info","message":"   Skill invoked by subagent: security-analysis","service":"code-review-system","timestamp":"2026-11-11 08:31:53"}
+{"level":"info","message":"<- Subagent test-coverage-analyzer finished","service":"code-review-system","timestamp":"2026-11-11 08:32:03"}
+{"level":"info","message":"<- Subagent code-quality-analyzer finished","service":"code-review-system","timestamp":"2026-11-11 08:32:07"}
+{"level":"info","message":"<- Subagent refactoring-suggester finished","service":"code-review-system","timestamp":"2026-11-11 08:32:09"}
+{"level":"info","message":"Session finished: success, 7 turns, 91s, cost $0.6105","service":"code-review-system","timestamp":"2026-11-11 08:32:42"}
+{"level":"info","message":"Review of octocat/Hello-World#1 validated against ReviewReportSchema","service":"code-review-system","timestamp":"2026-11-11 08:32:42"}
+{"level":"info","message":"Review of octocat/Hello-World#1 completed in 92s","service":"code-review-system","timestamp":"2026-11-11 08:32:42"}
+{"level":"info","message":"Authentication: Anthropic API key (custom endpoint https://claude.vocareum.com)","service":"code-review-system","timestamp":"2026-11-11 08:34:57"}
+{"level":"info","message":"Reviewing udacity/cd14715-simple-todo-app#1 with claude-sonnet-4-5-20250929. This usually takes a few minutes...","service":"code-review-system","timestamp":"2026-11-11 08:34:57"}
+{"level":"info","message":"Starting review of udacity/cd14715-simple-todo-app#1 (model: claude-sonnet-4-5-20250929)","service":"code-review-system","timestamp":"2026-11-11 08:34:57"}
+{"level":"info","message":"MCP server \"github\" connected","service":"code-review-system","timestamp":"2026-11-11 08:35:07"}
+{"level":"info","message":"MCP server \"eslint\" connected","service":"code-review-system","timestamp":"2026-11-11 08:35:07"}
+{"level":"info","message":"-> Spawning subagent: code-quality-analyzer","service":"code-review-system","timestamp":"2026-11-11 08:35:33"}
+{"level":"info","message":"-> Spawning subagent: test-coverage-analyzer","service":"code-review-system","timestamp":"2026-11-11 08:35:43"}
+{"level":"info","message":"-> Spawning subagent: refactoring-suggester","service":"code-review-system","timestamp":"2026-11-11 08:35:54"}
+{"level":"info","message":"   Skill invoked by subagent: security-analysis","service":"code-review-system","timestamp":"2026-11-11 08:35:56"}
+{"level":"info","message":"   Skill invoked by subagent: javascript-best-practices","service":"code-review-system","timestamp":"2026-11-11 08:35:56"}
+{"level":"info","message":"   Skill invoked by subagent: javascript-best-practices","service":"code-review-system","timestamp":"2026-11-11 08:35:57"}
+{"level":"info","message":"<- Subagent refactoring-suggester finished","service":"code-review-system","timestamp":"2026-11-11 08:36:25"}
+{"level":"info","message":"<- Subagent code-quality-analyzer finished","service":"code-review-system","timestamp":"2026-11-11 08:36:26"}
+{"level":"info","message":"<- Subagent test-coverage-analyzer finished","service":"code-review-system","timestamp":"2026-11-11 08:36:45"}
+{"level":"info","message":"Session finished: success, 7 turns, 229s, cost $0.5561","service":"code-review-system","timestamp":"2026-11-11 08:38:46"}
+{"level":"info","message":"Review of udacity/cd14715-simple-todo-app#1 validated against ReviewReportSchema","service":"code-review-system","timestamp":"2026-11-11 08:38:46"}
+{"level":"warn","message":"udacity_cd14715-simple-todo-app_1.json contains the text \"undefined\"; check that every report field is populated.","service":"code-review-system","timestamp":"2026-11-11 08:38:46"}
+{"level":"info","message":"Review of udacity/cd14715-simple-todo-app#1 completed in 229s","service":"code-review-system","timestamp":"2026-11-11 08:38:46"}
+{"level":"info","message":"Authentication: Anthropic API key (custom endpoint https://claude.vocareum.com)","service":"code-review-system","timestamp":"2026-11-11 08:39:29"}
+{"level":"info","message":"Reviewing udacity/cd14715-simple-todo-app#2 with claude-sonnet-4-5-20250929. This usually takes a few minutes...","service":"code-review-system","timestamp":"2026-11-11 08:39:29"}
+{"level":"info","message":"Starting review of udacity/cd14715-simple-todo-app#2 (model: claude-sonnet-4-5-20250929)","service":"code-review-system","timestamp":"2026-11-11 08:39:29"}
+{"level":"info","message":"MCP server \"github\" connected","service":"code-review-system","timestamp":"2026-11-11 08:39:38"}
+{"level":"info","message":"MCP server \"eslint\" connected","service":"code-review-system","timestamp":"2026-11-11 08:39:38"}
+{"level":"info","message":"-> Spawning subagent: code-quality-analyzer","service":"code-review-system","timestamp":"2026-11-11 08:40:01"}
+{"level":"info","message":"-> Spawning subagent: test-coverage-analyzer","service":"code-review-system","timestamp":"2026-11-11 08:40:09"}
+{"level":"info","message":"-> Spawning subagent: refactoring-suggester","service":"code-review-system","timestamp":"2026-11-11 08:40:17"}
+{"level":"info","message":"   Skill invoked by subagent: javascript-best-practices","service":"code-review-system","timestamp":"2026-11-11 08:40:20"}
+{"level":"info","message":"   Skill invoked by subagent: security-analysis","service":"code-review-system","timestamp":"2026-11-11 08:40:20"}
+{"level":"info","message":"   Skill invoked by subagent: javascript-best-practices","service":"code-review-system","timestamp":"2026-11-11 08:40:20"}
+{"level":"info","message":"<- Subagent code-quality-analyzer finished","service":"code-review-system","timestamp":"2026-11-11 08:40:55"}
+{"level":"info","message":"<- Subagent refactoring-suggester finished","service":"code-review-system","timestamp":"2026-11-11 08:40:57"}
+{"level":"info","message":"<- Subagent test-coverage-analyzer finished","service":"code-review-system","timestamp":"2026-11-11 08:41:06"}
+{"level":"info","message":"Session finished: success, 7 turns, 227s, cost $0.5455","service":"code-review-system","timestamp":"2026-11-11 08:43:17"}
+{"level":"info","message":"Review of udacity/cd14715-simple-todo-app#2 validated against ReviewReportSchema","service":"code-review-system","timestamp":"2026-11-11 08:43:17"}
+{"level":"warn","message":"udacity_cd14715-simple-todo-app_2.json contains the text \"undefined\"; check that every report field is populated.","service":"code-review-system","timestamp":"2026-11-11 08:43:17"}
+{"level":"info","message":"Review of udacity/cd14715-simple-todo-app#2 completed in 228s","service":"code-review-system","timestamp":"2026-11-11 08:43:17"}
+{"level":"info","message":"Authentication: Anthropic API key (custom endpoint https://claude.vocareum.com)","service":"code-review-system","timestamp":"2026-11-11 08:43:24"}
+{"level":"info","message":"Reviewing udacity/cd14715-simple-todo-app#3 with claude-sonnet-4-5-20250929. This usually takes a few minutes...","service":"code-review-system","timestamp":"2026-11-11 08:43:24"}
+{"level":"info","message":"Starting review of udacity/cd14715-simple-todo-app#3 (model: claude-sonnet-4-5-20250929)","service":"code-review-system","timestamp":"2026-11-11 08:43:24"}
+{"level":"info","message":"MCP server \"github\" connected","service":"code-review-system","timestamp":"2026-11-11 08:43:33"}
+{"level":"info","message":"MCP server \"eslint\" connected","service":"code-review-system","timestamp":"2026-11-11 08:43:33"}
+{"level":"info","message":"-> Spawning subagent: code-quality-analyzer","service":"code-review-system","timestamp":"2026-11-11 08:44:13"}
+{"level":"info","message":"-> Spawning subagent: test-coverage-analyzer","service":"code-review-system","timestamp":"2026-11-11 08:44:32"}
+{"level":"info","message":"-> Spawning subagent: refactoring-suggester","service":"code-review-system","timestamp":"2026-11-11 08:44:51"}
+{"level":"info","message":"   Skill invoked by subagent: javascript-best-practices","service":"code-review-system","timestamp":"2026-11-11 08:44:53"}
+{"level":"info","message":"   Skill invoked by subagent: security-analysis","service":"code-review-system","timestamp":"2026-11-11 08:44:54"}
+{"level":"info","message":"   Skill invoked by subagent: javascript-best-practices","service":"code-review-system","timestamp":"2026-11-11 08:44:55"}
+{"level":"info","message":"<- Subagent refactoring-suggester finished","service":"code-review-system","timestamp":"2026-11-11 08:45:37"}
+{"level":"info","message":"<- Subagent code-quality-analyzer finished","service":"code-review-system","timestamp":"2026-11-11 08:45:45"}
+{"level":"info","message":"<- Subagent test-coverage-analyzer finished","service":"code-review-system","timestamp":"2026-11-11 08:45:56"}
+{"level":"info","message":"Session finished: success, 7 turns, 321s, cost $0.6881","service":"code-review-system","timestamp":"2026-11-11 08:48:45"}
+{"level":"info","message":"Review of udacity/cd14715-simple-todo-app#3 validated against ReviewReportSchema","service":"code-review-system","timestamp":"2026-11-11 08:48:45"}
+{"level":"warn","message":"udacity_cd14715-simple-todo-app_3.json contains the text \"undefined\"; check that every report field is populated.","service":"code-review-system","timestamp":"2026-11-11 08:48:45"}
+{"level":"info","message":"Review of udacity/cd14715-simple-todo-app#3 completed in 321s","service":"code-review-system","timestamp":"2026-11-11 08:48:45"}
